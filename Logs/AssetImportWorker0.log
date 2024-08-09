@@ -1,0 +1,454 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 15998 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Laura/Desktop/Personal/Clase Unity/Animation-3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57702
+Successfully changed project path to: C:/Users/Laura/Desktop/Personal/Clase Unity/Animation-3D
+C:/Users/Laura/Desktop/Personal/Clase Unity/Animation-3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14076] Host "[IP] 192.168.1.205 [Port] 0 [Flags] 2 [Guid] 470334552 [EditorId] 470334552 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KBKJ3G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14076] Host "[IP] 192.168.1.205 [Port] 0 [Flags] 2 [Guid] 470334552 [EditorId] 470334552 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KBKJ3G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Laura/Desktop/Personal/Clase Unity/Animation-3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003031 seconds.
+- Loaded All Assemblies, in  0.298 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.221 seconds
+Domain Reload Profiling: 518ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1757ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5263 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (421.6 KB). Loaded Objects now: 5733.
+Memory consumption went from 220.6 MB to 220.2 MB.
+Total: 5.158800 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.174600 ms MarkObjects: 3.926700 ms  DeleteObjects: 0.575500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140295.684585 seconds.
+  path: Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency 1.png
+  artifactKey: Guid(e62814e2f99413241b2c199cb44da6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency 1.png using Guid(e62814e2f99413241b2c199cb44da6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835e55718f158fa6e63823145c17c7d0') in 0.106993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (364.1 KB). Loaded Objects now: 5736.
+Memory consumption went from 115.5 MB to 115.1 MB.
+Total: 4.474200 ms (FindLiveObjects: 0.768100 ms CreateObjectMapping: 0.429200 ms MarkObjects: 3.135800 ms  DeleteObjects: 0.139800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294496 seconds.
+  path: Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency 1.png
+  artifactKey: Guid(e62814e2f99413241b2c199cb44da6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency 1.png using Guid(e62814e2f99413241b2c199cb44da6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835e55718f158fa6e63823145c17c7d0') in 0.035502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency.png
+  artifactKey: Guid(1c3a3bdc99b825141bf6df9c92b67b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material/Player_Model_PlayerMaterial_AlbedoTransparency.png using Guid(1c3a3bdc99b825141bf6df9c92b67b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd9f0a38d8c35e32473c064142f766') in 0.036051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Animations/Material/PlayerMaterial 1.mat
+  artifactKey: Guid(b6aacefc864330b479a6c9d3ccd39802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material/PlayerMaterial 1.mat using Guid(b6aacefc864330b479a6c9d3ccd39802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8765d2d2bd9fa3bab104dffc83ca8b4') in 0.249945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 54.297729 seconds.
+  path: Assets/Art/Animations/Characters/Chapa-Giratoria.fbx
+  artifactKey: Guid(57109053568335948a13753132f32cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Characters/Chapa-Giratoria.fbx using Guid(57109053568335948a13753132f32cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c50de6bad08d956707a96e6fc828a') in 0.009603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Animations/Characters/Rio@Jumping.fbx
+  artifactKey: Guid(9fc6dcb173763c74f95008b365419ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Characters/Rio@Jumping.fbx using Guid(9fc6dcb173763c74f95008b365419ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785ec1d664f3e7b825d44c8874a15cda') in 0.082903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 82.538352 seconds.
+  path: Assets/Unity Technologies/LowpolyCharacterRio/Materials/Rio.mat
+  artifactKey: Guid(648ffaa5c9a6a9745a09dafdd6ae1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/LowpolyCharacterRio/Materials/Rio.mat using Guid(648ffaa5c9a6a9745a09dafdd6ae1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca76601bb077d6078d3079a8e6df0e6') in 0.080535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 145.377193 seconds.
+  path: Assets/Art/Animations/Material
+  artifactKey: Guid(3b6e2694dfef7934f9731de0fd8e3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material using Guid(3b6e2694dfef7934f9731de0fd8e3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545325eb244e930916a4a13eabe66a07') in 0.003160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.256904 seconds.
+  path: Assets/Art/Animations/Material/New Material.mat
+  artifactKey: Guid(d2e97dc3f3177024ea9afc680307750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Material/New Material.mat using Guid(d2e97dc3f3177024ea9afc680307750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7312d9f7e9ab5def9a2e618f642fcd7') in 0.475371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 77.717057 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab
+  artifactKey: Guid(eded051879df4c147b9010199d240258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab using Guid(eded051879df4c147b9010199d240258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45613208ebc5586819107612148ffd7f') in 0.043727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.560757 seconds.
+  path: Assets/Prefabs/Rock.prefab
+  artifactKey: Guid(694798801e28bc940bbc5e862e3c3175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock.prefab using Guid(694798801e28bc940bbc5e862e3c3175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1372a3bc23b5b7dfdab5b2816555f64') in 0.035111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 11.536751 seconds.
+  path: Assets/Prefabs/RioLogic.prefab
+  artifactKey: Guid(64b182395c0b6744a920c74bce3ece13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RioLogic.prefab using Guid(64b182395c0b6744a920c74bce3ece13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65f82fb1914721342d39f6044b8fb1') in 0.101669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 418
+========================================================================
+Received Import Request.
+  Time since last request: 63.806646 seconds.
+  path: Assets/Unity Technologies/LowpolyCharacterRio/Textures/Rio_AlbedoTransparency.png
+  artifactKey: Guid(07e27cb62484a7840b0e1a9dfc96949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/LowpolyCharacterRio/Textures/Rio_AlbedoTransparency.png using Guid(07e27cb62484a7840b0e1a9dfc96949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d2eb7d86fd622093dc2b602bf17771') in 0.059755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 78.938028 seconds.
+  path: Assets/Unity Technologies/LowpolyCharacterRio/Materials/Rio.mat
+  artifactKey: Guid(648ffaa5c9a6a9745a09dafdd6ae1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/LowpolyCharacterRio/Materials/Rio.mat using Guid(648ffaa5c9a6a9745a09dafdd6ae1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f20488e068766aeb67a40364287789') in 0.042351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.503133 seconds.
+  path: Assets/Unity Technologies/LowpolyCharacterRio/Models/Rio.fbx
+  artifactKey: Guid(24fc2c3e62c52bf4e9e63fd980b8e85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/LowpolyCharacterRio/Models/Rio.fbx using Guid(24fc2c3e62c52bf4e9e63fd980b8e85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7789bc116515608200e587797a5e4354') in 0.072574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 1.742257 seconds.
+  path: Packages/com.unity.ai.navigation/package.json
+  artifactKey: Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/package.json using Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd60035ce2821eae222626dbf04c077f') in 0.001914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.735103 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(08d92955bdfa7034c93a8c789370f8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer using Guid(08d92955bdfa7034c93a8c789370f8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9468435115fdafdcd5c3e52998bdaa7d') in 0.034862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(93c860b3293b1c644a9048ab4d36737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(93c860b3293b1c644a9048ab4d36737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f667088e31028b8fe28b42b4ef3c96b8') in 0.031263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.876772 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga
+  artifactKey: Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga using Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a172f7e94819e714e46d282eb97b2d0d') in 0.021762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.354014 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga
+  artifactKey: Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga using Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b005258cc3bb35b1df911aee652d3c96') in 0.023553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.509180 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga
+  artifactKey: Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga using Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b46d54437db86362cf5be327823fae4') in 0.025451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.872529 seconds.
+  path: Assets/Art/Animations/Characters/Rio@Idle.fbx
+  artifactKey: Guid(e3f670871feaba6409c4b09e90ed39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animations/Characters/Rio@Idle.fbx using Guid(e3f670871feaba6409c4b09e90ed39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf3c973588f8e377023a9ec08720588') in 0.066461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 39.735729 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(efbc4f4908164d44caa6c05cc808b2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(efbc4f4908164d44caa6c05cc808b2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e366e27c5460a8c43c6caabef64a26') in 0.001859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.798370 seconds.
+  path: Assets/AllSkyFree
+  artifactKey: Guid(f8a4945c9a53a3e4092f961fdf6a3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree using Guid(f8a4945c9a53a3e4092f961fdf6a3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540e3913586f735e104da58561b6affb') in 0.001458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.345047 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky
+  artifactKey: Guid(9f633969e0c5e4bfeba8bb43b5348d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky using Guid(9f633969e0c5e4bfeba8bb43b5348d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2983bb4659ba88a4b87450268bd55887') in 0.002894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043558 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.mat
+  artifactKey: Guid(c56e28e54cac24b04ae3dd957d214534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.mat using Guid(c56e28e54cac24b04ae3dd957d214534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e45b72613c5df2d71c265887aa41f9f') in 0.258490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Nothing_Cam_3_Right-X.png
+  artifactKey: Guid(d3b809c8b33ff46faa4245f0bca7e6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Nothing_Cam_3_Right-X.png using Guid(d3b809c8b33ff46faa4245f0bca7e6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b31391a2b75412ac3b61f318165e7') in 0.027513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Equirect.png
+  artifactKey: Guid(d4c8dc343ae5d4673b7720ffdb1ddf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Equirect.png using Guid(d4c8dc343ae5d4673b7720ffdb1ddf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8122cb16aea65d53b5f329c73ae114e') in 0.076559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.625293 seconds.
+  path: Assets/Art
+  artifactKey: Guid(c494e7f49434f614e8a4542604e33b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(c494e7f49434f614e8a4542604e33b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b56de1bbfd9dbde5a4c6d11bce2a7f') in 0.001014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.224716 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat
+  artifactKey: Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat using Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cfaedf96d01a3ebb65e14f310af453') in 0.012845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat
+  artifactKey: Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat using Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb363a328da936f72a41657c854d88ee') in 0.112684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
