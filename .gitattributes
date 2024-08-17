@@ -1,1 +1,4 @@
 Library/PackageCache/com.unity.burst@1.8.9/.Runtime/libburst-llvm-15.dylib filter=lfs diff=lfs merge=lfs -text
+Assets/AllSkyFree/Cold[[:space:]]Night/Cold[[:space:]]Night[[:space:]]Equirect.png filter=lfs diff=lfs merge=lfs -text
+Assets/AllSkyFree/Cold[[:space:]]Sunset/Cold[[:space:]]Sunset[[:space:]]Equirect.png filter=lfs diff=lfs merge=lfs -text
+Assets/AllSkyFree/Deep[[:space:]]Dusk/Deep[[:space:]]Dusk[[:space:]]Equirect.png filter=lfs diff=lfs merge=lfs -text
